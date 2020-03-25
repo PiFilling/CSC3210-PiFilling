@@ -8,7 +8,7 @@ val3: .byte 16
 _start:
 
 ldr r1, =val2
-ldr r1,[r1]
+ldrb r1,[r1]
 add r1,#3
 ldr r2, =val3
 ldrsb r2, [r2]
